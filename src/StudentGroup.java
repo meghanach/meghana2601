@@ -118,6 +118,10 @@ if(student == null)
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
+if(index > this.getStudents().length || index < 0) 
+		
+			throw new IllegalArgumentException();
+		
 	}
 
 	@Override
@@ -132,6 +136,10 @@ if(student == null)
 	@Override
 	public void removeFromIndex(int index) {
 		// Add your implementation here
+if(index > this.getStudents().length || index < 0) 
+		
+			throw new IllegalArgumentException();
+		
 	}
 
 	@Override
@@ -146,6 +154,10 @@ if(student == null)
 	@Override
 	public void removeToIndex(int index) {
 		// Add your implementation here
+if(index > this.getStudents().length || index < 0) 
+		
+			throw new IllegalArgumentException();
+		
 	}
 
 	@Override
