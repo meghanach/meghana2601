@@ -101,12 +101,19 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addLast(Student student) {
 		// Add your implementation here
+if(student == null) 
+                 
+                   throw new IllegalArgumentException();
+                 
 	}
 
 	@Override
 	public void add(Student student, int index) {
-		// Add your implementation here
-	}
+		// Add your implementation here 
+if(student == null) 
+                 
+                   throw new IllegalArgumentException();
+                 }
 
 	@Override
 	public void remove(int index) {
@@ -116,6 +123,10 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
+if(student == null) 
+                 
+                   throw new IllegalArgumentException();
+                 
 	}
 
 	@Override
@@ -126,6 +137,10 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void removeFromElement(Student student) {
 		// Add your implementation here
+if(student == null) 
+                 
+                   throw new IllegalArgumentException();
+                 
 	}
 
 	@Override
@@ -136,6 +151,10 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void removeToElement(Student student) {
 		// Add your implementation here
+if(student == null) 
+                 
+                   throw new IllegalArgumentException();
+                 
 	}
 
 	@Override
@@ -182,6 +201,10 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
+if(student == null) 
+                 
+                   throw new IllegalArgumentException();
+                 
 		return null;
 	}
 }
